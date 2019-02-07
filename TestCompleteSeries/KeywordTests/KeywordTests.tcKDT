@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Purchase_Item" key="{3876A0F0-FEFC-4DD4-AE73-6E0E9B26CB77}" path="Purchase_Item.tcKDTest" />
+		<child name="Data_Loop" key="{97585C4C-271F-469C-AE19-A79EE757634A}" path="Data_Loop.tcKDTest" />
+		<child name="Login" key="{EA75750C-05C1-4BE1-A62D-F45A0A851334}" path="Login.tcKDTest" />
+		<child name="Test4" key="{724121F4-C353-47BF-B5A7-474B9E8E557E}" path="Test4.tcKDTest" />
+	</children>
+</Root>

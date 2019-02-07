@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 10">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="651"/>
+					<Prp name="click point y" type="I" value="670"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail"/>
+					<Prp name="datetime" type="D" value="43502.4692697917"/>
+					<Prp name="click point x" type="I" value="767"/>
+					<Prp name="object bottom" type="I" value="695"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="image file name" type="S" value="tcvi9725546144163.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="651"/>
+					<Prp name="click point y" type="I" value="670"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail"/>
+					<Prp name="datetime" type="D" value="43502.4611921296"/>
+					<Prp name="click point x" type="I" value="767"/>
+					<Prp name="object bottom" type="I" value="695"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (75, 19) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://localhost:88/shoppingcart/login.php&quot;).Panel(1).Panel(0).Panel(&quot;login&quot;).Form(0).Panel(0).Textbox(&quot;login_email&quot;))"/>
+			<Prp name="date" type="D" value="43502.4692711111"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="datetime" type="D" value="43502.4693277199"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="1048"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1928"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;firefox&quot;).BrowserWindow(0))"/>
+			<Prp name="date" type="D" value="43502.4693295833"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The 'Sign-Up/Login Form - Mozilla Firefox' window was closed."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;setBoolPref&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693491088"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="URL: http://localhost:88/shoppingcart/login.php&#xA;Info: Cannot find any existing or open blank page.&#xA;&#xA;NameMapping.Sys.Process(&quot;firefox&quot;)"/>
+			<Prp name="date" type="D" value="43502.4693452315"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Unable to navigate to the http://localhost:88/shoppingcart/login.php page."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="651"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail"/>
+					<Prp name="datetime" type="D" value="43502.4692721065"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="695"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="image file name" type="S" value="tcvi9726687144164.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="651"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail"/>
+					<Prp name="datetime" type="D" value="43502.4612037037"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="695"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail"/>
+			<Prp name="date" type="D" value="43502.4692729282"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'Jane@outlook.com' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="8"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;setBoolPref&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693522106"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Preferences&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;)&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693476042"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;)&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 12">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="12"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop test item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="43502.4693550694"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;setBoolPref&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693506481"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;setBoolPref&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693483449"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="74"/>
+					<Prp name="click point y" type="I" value="100"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageAwesomeShoppingStoreProducts.navbarAwesomeShoppingStore"/>
+					<Prp name="datetime" type="D" value="43502.4693112963"/>
+					<Prp name="click point x" type="I" value="1577"/>
+					<Prp name="object bottom" type="I" value="126"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1903"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="image file name" type="S" value="tcvi9738937144169.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="74"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageAwesomeShoppingStoreProducts.navbarAwesomeShoppingStore"/>
+					<Prp name="datetime" type="D" value="43502.4613425926"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="126"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1903"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAwesomeShoppingStoreProducts.navbarAwesomeShoppingStore&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://localhost:88/shoppingcart/welcome.php&quot;).Nav(0))"/>
+			<Prp name="date" type="D" value="43502.4693129398"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The toolbar item 'Logout (current)' was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="828"/>
+					<Prp name="click point y" type="I" value="857"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.buttonLogIn"/>
+					<Prp name="datetime" type="D" value="43502.4692776505"/>
+					<Prp name="click point x" type="I" value="952"/>
+					<Prp name="object bottom" type="I" value="887"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="image file name" type="S" value="tcvi9734375144168.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="828"/>
+					<Prp name="click point y" type="I" value="870"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.buttonLogIn"/>
+					<Prp name="datetime" type="D" value="43502.4612962963"/>
+					<Prp name="click point x" type="I" value="908"/>
+					<Prp name="object bottom" type="I" value="887"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageSignUpLoginForm.form.buttonLogIn"/>
+			<Prp name="date" type="D" value="43502.4692793287"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="735"/>
+					<Prp name="click point y" type="I" value="770"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap2.passwordboxLoginPassword"/>
+					<Prp name="datetime" type="D" value="43502.4692738194"/>
+					<Prp name="click point x" type="I" value="765"/>
+					<Prp name="object bottom" type="I" value="778"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="image file name" type="S" value="tcvi9730703144166.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="735"/>
+					<Prp name="click point y" type="I" value="770"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap2.passwordboxLoginPassword"/>
+					<Prp name="datetime" type="D" value="43502.46125"/>
+					<Prp name="click point x" type="I" value="765"/>
+					<Prp name="object bottom" type="I" value="778"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (73, 35) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap2.passwordboxLoginPassword&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://localhost:88/shoppingcart/login.php&quot;).Panel(1).Panel(0).Panel(&quot;login&quot;).Form(0).Panel(1).PasswordBox(&quot;login_password&quot;))"/>
+			<Prp name="date" type="D" value="43502.4692747222"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="9"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;setBoolPref&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693529514"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Mozilla Firefox"/>
+			<Prp name="date" type="D" value="43502.4692379051"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The browser is already running."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="item 6">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;setBoolPref&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693514583"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="URL: http://localhost:88/shoppingcart/login.php&#xA;&#xA;Aliases.browser"/>
+			<Prp name="date" type="D" value="43502.4692679514"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the http://localhost:88/shoppingcart/login.php page."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="735"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap2.passwordboxLoginPassword"/>
+					<Prp name="datetime" type="D" value="43502.4692757407"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="778"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="image file name" type="S" value="tcvi9732515144167.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object top" type="I" value="735"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap2.passwordboxLoginPassword"/>
+					<Prp name="datetime" type="D" value="43502.4612731481"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="778"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object right" type="I" value="1212"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap2.passwordboxLoginPassword"/>
+			<Prp name="date" type="D" value="43502.4692765625"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'test' was entered in the text editor."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;setBoolPref&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693499306"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="10"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;setIntPref&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693535764"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The object with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2202&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="43502.4693467824"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Unable to find the object Sys.Browser(&quot;firefox&quot;). See Details for additional information."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Data_Loop()"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="stack end" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;setIntPref&quot; method or property of the &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; object that does not exist."/>
+			<Prp name="date" type="D" value="43502.4693543056"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The object &quot;Sys.Browser(&quot;firefox&quot;).Preferences&quot; does not exist."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{66C3EA12-3F68-4CBF-AC22-C2D120D758FE}"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Mozilla Firefox"/>
+			<Prp name="date" type="D" value="43502.4693305208"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The browser is already running."/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Version="1">
+	<Providers>
+		<Provider version="1" Name="CrossBrowserTesting">
+			<groups>
+				<Group0 Caption="&lt;root&gt;Test4" Key="25A789AEx8A61x49AAxA140x76C00D358CE6" Enabled="True">
+					<Hosts>
+						<Host0 Device="Windows 10" Browser="Google Chrome 71 (64-bit)" Resolution="1920x1080" DeviceApi="Win10" BrowserApi="Chrome71x64" ResolutionApi="1920x1080" />
+					</Hosts>
+					<Tests>
+						<Test0 Name="Test4" Project="TestCompleteSeries" TestName="KeywordTests|Test4" Key="FF132705xFC0Fx41B6xB7B2xCB7F083F3C9B" />
+					</Tests>
+					<TestItems />
+				</Group0>
+			</groups>
+			<tunnels />
+		</Provider>
+	</Providers>
+</Root>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Prp name="message" type="S" value="Success"/>
+			<Prp name="os" type="S" value="Windows 10"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="livetesting" type="S" value="https://app.crossbrowsertesting.com/livetests/run?url=false&amp;browser=Win10-E18|Chrome71x64|1920x1080"/>
+			<Prp name="endtime" type="D" value="43503.4823871875"/>
+			<Prp name="environment" type="S" value="&lt;root&gt;Test4"/>
+			<Prp name="test" type="S" value="Test4"/>
+			<Prp name="video" type="S" value="https://s3.amazonaws.com/media.crossbrowsertesting.com/users/455419/videos/zfbac5d58646cb1c7dee.mp4"/>
+			<Prp name="path" type="S" value="{FBB0C794-1373-4CE7-9402-1B18FE083A86}\Description.tcLog"/>
+			<Prp name="resolution" type="S" value="1920x1080"/>
+			<Prp name="starttime" type="D" value="43503.4822116898"/>
+			<Prp name="browser" type="S" value="Google Chrome 71 (64-bit)"/>
+			<Prp name="key" type="S" value="{FBB0C794-1373-4CE7-9402-1B18FE083A86}"/>
+		</Node>
+		<Prp name="totaltests" type="I" value="1"/>
+		<Prp name="username" type="S" value=" "/>
+		<Prp name="endtime" type="D" value="43503.4824078819"/>
+		<Prp name="starttime" type="D" value="43503.4820362616"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 0">
+			<Prp name="remarks" type="S" value="Mozilla Firefox"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The browser is already running."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="43502.4745293171"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="887"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="952"/>
+					<Prp name="object right" type="I" value="1212"/>
+					<Prp name="datetime" type="D" value="43502.4745800347"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="object top" type="I" value="828"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.buttonLogIn"/>
+					<Prp name="click point y" type="I" value="857"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageSignUpLoginForm.form.buttonLogIn"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="43502.4745818171"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="767"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="794"/>
+					<Prp name="datetime" type="D" value="43502.4745750231"/>
+					<Prp name="object left" type="I" value="707"/>
+					<Prp name="object top" type="I" value="746"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap2.passwordboxLoginPassword"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click with no key pressed within the area containing the following text:&#xA;Password"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text area was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="43502.474577037"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="695"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1212"/>
+					<Prp name="datetime" type="D" value="43502.4745695718"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="object top" type="I" value="651"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'test@test.com' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="43502.4745704745"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="126"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="click point x" type="I" value="1577"/>
+					<Prp name="object right" type="I" value="1903"/>
+					<Prp name="datetime" type="D" value="43502.474616088"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object top" type="I" value="74"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageAwesomeShoppingStoreProducts.navbarAwesomeShoppingStore"/>
+					<Prp name="click point y" type="I" value="100"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageAwesomeShoppingStoreProducts.navbarAwesomeShoppingStore&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://localhost:88/shoppingcart/welcome.php&quot;).Nav(0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The toolbar item 'Logout (current)' was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="43502.4746175926"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="1048"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1928"/>
+					<Prp name="datetime" type="D" value="43502.4746337616"/>
+					<Prp name="object left" type="I" value="-8"/>
+					<Prp name="object top" type="I" value="-8"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;firefox&quot;).BrowserWindow(0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The 'Sign-Up/Login Form - Mozilla Firefox' window was closed."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="43502.4746349769"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="695"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="click point x" type="I" value="819"/>
+					<Prp name="object right" type="I" value="1212"/>
+					<Prp name="datetime" type="D" value="43502.474567581"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="object top" type="I" value="651"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail"/>
+					<Prp name="click point y" type="I" value="661"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="A click at point (127, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap.textboxLoginEmail&#xA;(Sys.Browser(&quot;firefox&quot;).Page(&quot;http://localhost:88/shoppingcart/login.php&quot;).Panel(1).Panel(0).Panel(&quot;login&quot;).Form(0).Panel(0).Textbox(&quot;login_email&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="43502.4745685995"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{19B1FFB6-F35C-46F7-BA02-4DCA89ADF587}"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="778"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="1212"/>
+					<Prp name="datetime" type="D" value="43502.474577338"/>
+					<Prp name="object left" type="I" value="692"/>
+					<Prp name="object top" type="I" value="735"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap2.passwordboxLoginPassword"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+				</Node>
+			</Node>
+			<Prp name="remarks" type="S" value="Aliases.browser.pageSignUpLoginForm.form.panelFieldWrap2.passwordboxLoginPassword"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The text 'test' was entered in the text editor."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="43502.474578206"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 1">
+			<Prp name="remarks" type="S" value="URL: http://localhost:88/shoppingcart/login.php&#xA;&#xA;Aliases.browser"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the http://localhost:88/shoppingcart/login.php page."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="date" type="D" value="43502.4745591551"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>
